@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend-Mentor_fylo-data-storage-component-master](https://github.com/VangmanawKairung/Frontend-Mentor_fylo-data-storage-component-master)
+- Solution URL: [Fylo Data Storage Component by HTML and CSS](https://www.frontendmentor.io/solutions/fylo-data-storage-component-by-html-and-css-gA8X2qMjKW)
 - Live Site URL: [Frontend Mentor | Fylo data storage component](https://vangmanawkairung.github.io/Frontend-Mentor_fylo-data-storage-component-master/)
 
 ## My process
