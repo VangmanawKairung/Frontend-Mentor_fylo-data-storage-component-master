@@ -1,31 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Fylo data storage component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/sunflower.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor Challenge | Fylo data storage component</title>
 
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <style>
+      footer {
+        font-size: 11px;
+        text-align: center;
+      }
+      footer a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <section class="menu-bar"></section>
+        <section class="stat-bar">
+          <div class="used-stat">
+            <p class="expression">You’ve used 815 GB of your storage</p>
+            <div class="bar">
+              <p class="minimum">0 GB</p>
+              <p class="maximum">1000 GB</p>
+            </div>
+          </div>
+          <div class="remain-stat">185 GB Left</div>
+        </section>
+      </main>
+      <footer class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n"
+          target="_blank"
+          >Frontend Mentor</a
+        >. <br />
+        Coded by
+        <a href="https://github.com/VangmanawKairung">Kairung Vangmanaw</a>.
+      </footer>
+    </div>
+  </body>
 </html>
