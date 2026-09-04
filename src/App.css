@@ -220,6 +220,7 @@ body {
 .storage-stat__badge-unit {
   font-size: 0.85rem;
   margin-top: 5px;
+  color: var(--clr-neutral-grayish-blue);
 }
 
 .footer {
